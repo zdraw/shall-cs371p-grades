@@ -1,0 +1,26 @@
+Takes in input of the number of events (a positive int)
+the max values of the events (several positive ints)
+the weights of the events (several positive ints) (that add up to 100)
+the following for each student
+the ID (a 5-char String)
+the unique (a 5-digit positive int)
+the TA name (a max 8-char String)
+the scores (several non-negative ints) (<= to the corresponding max value)
+
+Ouputs the the number of events (a positive int)
+the max values of the events (several positive ints)
+the weights of the events (several positive ints) (that add up to 100)
+Size: the number of students (a positive int)
+Max: the max of the total scores as a percent (a non-negative double) (rounded to two decimal places)
+Mean: the mean of the total scores as a percent (a non-negative double) (rounded to two decimal places)
+Min: the min of the total scores as a percent (a non-negative double) (rounded to two decimal places)
+For each letter grade (A, B, C, D, F): the number and percent of students with that letter grade (a non-negative int and a non-negative double) (rounded to two decimal places)
+GPA: the GPA of the whole class (a non-negative double) (A = 4pts, B = 3pts, C = 2pts, D = 1pt, F = 0pts)
+the following for each student
+the ID (a 5-char String)
+the unique (a 5-digit positive int)
+the TA name (a max 8-char String)
+the scores (several non-negative ints) (<= to the corresponding max value) {formatted to the correct width}
+the total score as a percent (a non-negative double) (rounded to two decimal places)
+the z-score (a double) (rounded to two decimal places)
+the letter grade (a char)
